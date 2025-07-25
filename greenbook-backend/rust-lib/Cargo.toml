@@ -1,0 +1,7 @@
+[package]
+name = "greenbook_rust_lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"] # Compile as both dynamic (.so/.dylib/.dll) and static (.a/.lib) C libraries
